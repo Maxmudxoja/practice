@@ -1,5 +1,5 @@
 #Dunder-> buning ma'nosi double underscore degani (__) (Pythonni ichki qurulish mexanizmi , ya'ni methodlar va boshqalar)
-#-> __builtins__ , __init__
+#-> __builtins__ , __init__ they are examples 
 
 message="In Python everything is object"
 print(message)
