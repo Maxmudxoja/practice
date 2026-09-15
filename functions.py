@@ -45,6 +45,21 @@ def give_greet(name, age=22):
 result3= give_greet(name="Justin", age=20)
 print("Result3: ",result3)
 
-#Call -> Default argument
+#Call -> Default argument-> berilmasa parametrdagisi ni oladi
 result4= give_greet(name="John")
 print("Result4: ",result4)
+
+
+print("=========== Scope ===============")
+b=100 #3
+
+
+# Define 
+def calculate (a , b): #2
+    c=a*b #1
+    print(f"the c value : {c}")
+
+
+
+# Call
+calculate(5,50)
