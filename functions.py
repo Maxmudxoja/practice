@@ -30,3 +30,21 @@ result2= greeting("Justin")
 print("Result2: ",result2)
 
 
+print("========== Keyword & default argument ============")
+
+#Define 
+
+def give_greet(name, age=22):
+    print("give_greet is executed")
+    return f"Hi {name}, You are {age} years old!"
+
+
+
+
+#Call -> Keyword argument lar -> yana code ni aniqroq tushunilishi uchun
+result3= give_greet(name="Justin", age=20)
+print("Result3: ",result3)
+
+#Call -> Default argument
+result4= give_greet(name="John")
+print("Result4: ",result4)
