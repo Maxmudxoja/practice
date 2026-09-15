@@ -46,6 +46,8 @@ except KeyError as err:
     print("No origin state property found: ",err)
 except AttributeError as err:
     print("No speed found: ",err)
+except Exception as err:
+    print("General error: ",err)
 else:
     print("Executed succesfully without errors")
 finally:
